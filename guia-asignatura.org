@@ -21,8 +21,8 @@
 - Podéis ver toda la información sobre emí en [[https://infotics.es][infotics.es]] donde suelo poner todo lo que hago.
 - También soy [[https://github.com/flowsta][@flowsta]] en Github, una herramienta que usaremos.
 - Esta guía de la asignatura se corresponde con buena parte de lo que hemos dado durante las clases.
-- La organización de la información no responde a un cronológico sino a la estructura propuesta por *la ficha reina* de la asignatura.
- - Si tienes alguna duda, comentario o propuesta de mejora, puedes crear una issue.
+- La organización de la información no responde a un orden cronológico sino a la estructura propuesta por *la ficha reina* de la asignatura.
+- Si tienes alguna duda, comentario o propuesta de mejora, puedes crear una issue.
    
 * Introducción al Periodismo de datos
 ** ¿Qué es el Periodismo de datos?
