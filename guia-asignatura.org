@@ -4,6 +4,8 @@
 #+AUTHOR: Anton-Bravo, Adolfo
 #+EMAIL: adolfo.anton@uc3m.es
 #+DATE: <2022-05-05 Thu>
+#+HTML_DOCTYPE: html5
+#+language: es
 #+latex_class: article
 #+OPTIONS: H:5 toc:t author:t title:t date:nil num:t ^:{} \n:1 todo:nil
 #+OPTIONS:  @:nil ::nil |:nil ^:nil -:nil <:nil tags:nil
