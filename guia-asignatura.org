@@ -782,14 +782,14 @@ El esquema es =comando opciones argumento=. Todo ello se conoce como línea o in
 - Otras veces se ponen argumentos, como cuando listamos un directorio: ~ls uc3m-periodismo-datos~. El comando va seguido de los argumentos. En el caso de ~lynx~ se puede poner la URL como argumento, así: ~lynx https://theguardian.com~
 - Y otras tiene opciones, como en =lynx -source https://theguardian.com=. En este caso la opción dice de descargar el código fuente.
 
-* BASH
+** BASH
 - El lenguaje de la terminal más habitual es *bash*.
 - Es un lenguaje de programación en sí pero también un entorno sobre el que trabajamos incluso sin programar.
 - Bash es uno de los lenguajes posibles de la Shell, que es como se denominaría a la terminal. Es el más popular. Sin embargo, hay otros también muy extendidos como =zsh=.
 - Se pueden ver todos los dialectos de la SHELL disponibles con =cat /etc/shells=.
 - Se puede ver cuál está en uso con ~echo $SHELL~, una variable de entorno.
 
-*** Variables de entorno
+**** Variables de entorno
 Una de las cosas que tienen los lenguajes de programación son las variables, sirven para definir los datos. Por ejemplo, en ~x = 3~ lo que dice es que la variable =x= tiene el valor de 3. En el uso de los programas es similar y se llaman "de entorno" porque configuran la relación del programa con su entorno.
 
 Se pueden ver las variables con el comando ~env~. Como salen muchas cosas en la pantalla y no se pueden leer todas será mejor "paginar" el resultado con =less=.
@@ -799,32 +799,32 @@ Si con =>= enviamos la salida estándar a un archivo, en este caso se usa el ope
 El operador es la barra vertical =|= que se escribe con =Alt Gr + 1=.
 También se puede ver el valor de una variable con el comando =echo= seguido de la variable, aunque precedida del símbolo del dólar que indica que se trata de una variable: =echo $PATH=
 
-*** Atajos de teclado
+**** Atajos de teclado
  - Es muy habitual usar atajos para ir más rápido en la relación con el ordenador.
  - Los atajos se veían guay hasta que llegaron los /mousepad/.
  - La convivencia es posible, hay veces que usar el mousepad está bien pero no os perdáis la potencia de los atajos.
 
-*** Operadores vistos
+**** Operadores vistos
  - =>=, envía la salida de un comando a un archivo. Si este existiera ya, lo sobreescribe; si no existe, lo crea.
  - =>>=, envía la salida de un comando a un archivo. Si este existiera ya, lo añade al final; si no existe, lo crea.
  - =|=, envía la salida de un comando como entrada de otro comando.
 
-** Comandos básicos
-**** Listar archivos, opciones
+*** Comandos básicos
+***** Listar archivos, opciones
 - =ls= :: listamos archivos y directorios
 - =ls -a= :: listamos archivos y directorios ocultos
 - =ls -la= :: listamos archivos y directorios ocultos con detalle.
-**** Copiar archivos y/o directorios
+***** Copiar archivos y/o directorios
 - Para copiar está el comando =cp=
 - Su comportamiento es =cp OPCIONES ruta/s-origen ruta-destino=. Es decir, admite copia una cosa o varias a un destino final.
 - Tened en cuenta siempre eso que os decía que cuando ponemos el nombre de los archivos o las carpetas en realidad estamos poniendo su ruta en el sistema de ficheros.
 - Si copiamos un directorio y tiene contenido hemos de poner la opción =-r= que significa "copia recursiva".
-**** Mover archivos y/o directorios
+***** Mover archivos y/o directorios
 - Para mover archivos, es decir, cortar y pegar algo en un destino determinado, está el comando =mv=.
 - Su comportamiento es =mv OPCIONES ruta/s-origen ruta-destino=. Admite, también, mover una o varias cosas a un destino final.
 - Se puede usar también para renombrar archivos o carpetas. Es decir, si hacemos =mv hola.txt adios.txt= lo que hacemos es mover el archivo =hola.txt= al archivo =adios.txt=, es decir, borrar =hola.txt= y crea =adios.txt=; y si existiera, lo sobreescribe.
 
-**** Wildcards o comodines
+***** Wildcards o comodines
 - A la hora de listar, copiar, mover y otras operaciones se pueden usar las =wildcards= o comodines.
 - Imaginad que tenéis una carpeta en vuestro Escritorio de nombre =data= y dentro de ella tenéis archivos =csv=, =json= y =xls=, todos en la misma carpeta. Y queréis organizar eso un poco por tipo de archivo.
 - Entonces creamos unas carpetas que se llamarán =csv=, =json= y =xls= dentro de =data=.
