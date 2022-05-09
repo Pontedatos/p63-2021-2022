@@ -947,15 +947,7 @@ apack algo.zip dirs/ files
 - ¿Qué fue determinante para el nacimiento del periodismo de datos moderno?
 - Qué saberes están implicados en periodismo de datos. Razona la respuesta.
 - Cuál es la materia del periodismo de datos. Razona la respuesta.
-- Ahora que ya tenemos un primer repositorio en Github y que sabéis crear archivos, os propongo que escribáis un comentario crítico sobre una o varias visualizaciones de datos y/o infografías.
-- No se exige un número mínimo de palabras ni máximo.
-- Puede ser de una o de varias.
-- Lo interesante no es que me enseñéis la que pensáis que puede ser para mí la mejor visualización o infografía sino que escribáis libremente, sin prejuicios.
-- Importante, repito: este texto tiene que estar en formato Markdown en un documento creado en el mismo repositorio de Github que habéis creado.
-- Si la/s visualizaciones o infografía/s tienen URL, podéis añadirlas.
-- Cualquier duda la podemos resolver también por el foro. 
-- Qué tipos de interfaces de datos hay
-- Qué tipos de datos hay?
+- ¿Qué tipos de datos hay?
 - Elige una URL de una noticia de un medio de comunicación y explícala tal como hicimos en clase.
 - ¿Qué significa el funcionamiento "cliente-servidor"?
 - ¿Qué relación tiene el formato CSV con Excel?
@@ -970,7 +962,6 @@ apack algo.zip dirs/ files
 - Cuál es el primer comando que deberías usar en la terminal. Explica tu respuesta. Pista: describe la estructura de ficheros de tu equipo y el lugar donde te encuentras.
 - ¿Como te mueves por el árbol de directorios de tu sistema de ficheros? Razona tu respuesta.
 - Si quisieras clonar un repositorio git, ¿qué pasos tendrías que dar? ¿Cómo comprobarías que ha funcionado?
-- Compara el software que considero esencial con el que consideras esencial.
 - ¿Cuál es la estructura de las sentencias/instrucciones en la línea de comandos?
 - Si quisieras ver la web theguardian.com, ¿cómo lo harías desde la línea de comandos?
 - ¿Cómo te descargarías la web theguardian.com desde la línea de comandos?
