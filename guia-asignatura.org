@@ -860,7 +860,7 @@ cat /etc/hosts
 ** Jupyter
 La UC3M tiene una [[https://jupyterhub.uc3m.es/][instancia de Jupyter Hub]] instalada.
 Solicité acceso a JupyterHub porque con el emulador de la terminal no logré que funcionaran correctamente varias librerías de Python: numpy y pandas, las cuales quería abordar como sustitutas de la visualización con datawrapper realizada en el cuatrimestre anterior.
-La UC3M nos ha dado acceso 8)
+La UC3M nos ha dado acceso 8-)
 
 Jupyter es un proyecto que sigue el paradigma de programación denominado "literate programming" o programación literaria, algo de lo que he hablado en más de una clase.
 
@@ -868,6 +868,12 @@ Desde una página web tenemos acceso a cuadernos o "notebooks" donde podremos es
 
 En la carpeta que os aparece de "recursos compartidos" hay una guía de uso.
 
+En clase hemos trabajado fundamentalmente con dos cuadernos que compusieron la práctica 3 y en cuyo trabajo luego se basó la práctica 4.
+
+Dejo por aquí la estructura básica de los dos aunque los trabajos de lxs alumnxs están más completos y mejor por estar comentados tal como indicaban las pruebas prácticas.
+
+1. [[./cuadernos/api-pandas-folium.html][Trabajo con una API y creación de mapa]], también disponible el [[./cuadernos/api-pandas-folium.ipynb][código fuente]].
+2. [[./cuadernos/python-api-covid-pandas.html][Trabajo con una API de datos en tiempo real]], también disponible el [[./cuadernos/python-api-covid-pandas.ipynb][código fuente]].
 ** lolcat
 Es un comando que convierte todo lo que pasa por el en "arcoiris". Su utilidad, en nuestro caso, es practicar y repasar varias acciones que hemos realizado.
 
