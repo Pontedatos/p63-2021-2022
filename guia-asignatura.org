@@ -724,11 +724,13 @@ Tres comandos muy usados:
 - =ls=, sirve para listar los archivos y directorios del directorio donde estás.
 - =cd=, para cambiar de directorio.
 ** Jerarquía del sistema de directorios
-- Metáfora arriba/abajo en un eje de Y donde el punto 0 es la raíz del sistema operativo, representado en Unix con una =/= y en 
+En sistemas [[https://es.wikipedia.org/wiki/POSIX][POSIX]] como son los Unix, GNU/Linux o las distintas emulaciones para trabajar en Windows, la raíz del sistema, el punto inicial de una ruta de los archivos en el sistema de archivos se representa con una =/=.
+Para entender el concepto de ruta que conlleva una representación de la ubicación en un sistema de ficheros ordenada hemos empleado varias metáforas espaciales:
+- Metáfora arriba/abajo en un eje de Y donde el punto 0 es la raíz del sistema operativo,  
 - Metáfora adelante/atrás en el eje de las X donde el punto 0 es la raíz del sistema operativo.
 - Metáfora entrar al directorio/salir del directorio.
 - En el mundo web además del punto 0 de la web está la URI o dirección del recurso en la red. 
-
+*** Rutas web
 Veámoslo con un ejemplo: =https://workforus.theguardian.com/careers/product-engineering/=
 - En esta URL el dominio es la raíz, en este caso =workforus.theguardian.com=
 - El directorio de primer nivel sería =careers=.
@@ -754,7 +756,9 @@ workforus.theguardian.com
     └── js
         └── lib.js
 #+end_example
-** Rutas absolutas y relativas
+*** Rutas absolutas y relativas
+
+Siguiendo con el ejemplo anterior se puede entender qué es una ruta absoluta y qué una ruta relativa.
 
 Si estoy en =index.html= y quiero referirme a la imagen =icon.png= que está en el directorio de las imágenes, puedo hacerlo con la ruta relativa o la ruta absoluta:
 
@@ -763,6 +767,8 @@ Si estoy en =index.html= y quiero referirme a la imagen =icon.png= que está en 
 - Ruta URI: dado que es un recurso disponible en la red de Internet, también podría tener la ruta =https://workfocus.theguardian.com/img/icon.png=. Cuando se ponen rutas URI se puede quitar la parte del protocolo, lo cual se hace por si en algún caso tiene problemas con uno u otro, quedando así: =//workforus.theguardian.com/img/icon.png=
 
 La elección depende de cómo esté montada la web. Suele ser mejor poner rutas absolutas si crees que las relativas pueden variar, pero también podrían cambiar potencialmente las absolutas.
+
+
 
 * Herramientas de visualización de datos
 Se habla de periodismo y visualización de datos porque entendemos que hay una línea argumental entre ambos conceptos.
